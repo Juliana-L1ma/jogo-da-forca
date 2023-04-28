@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    background-image: url(../jogo-da-forca/imagens/funto-para-teclado.jpg);
+    background-size: cover;
+}
+#jogo{
+    margin-top: 5%;
+    position: static;
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+}
+input{
+    background-color: #ffffff;
+}
+#titulo{
+    font-family: 'Star Wars', sans-serif;
+    text-align: center;
+    color: yellow;
+    padding: 2%;
+}
+button, button:focus {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 0.7rem;
+    background-image: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+    border: 2px solid rgb(50, 50, 50);
+    border-bottom: 5px solid rgb(50, 50, 50);
+    box-shadow: 0px 1px 6px 0px rgb(39, 9, 136);
+    transform: translate(0, -3px);
+    transition: 0.2s;
+    transition-timing-function: linear;
+  }
+  
+  button:active {
+    transform: translate(0, 0);
+    border-bottom: 2px solid rgb(50, 50, 50);
+  }
+
